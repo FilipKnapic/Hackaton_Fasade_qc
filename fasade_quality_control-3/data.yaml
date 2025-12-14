@@ -1,0 +1,18 @@
+names:
+- brtva_nedostaje
+- brtva_ostecena
+- lim_nedostaje
+- ok
+- staklo_pukotina
+- vijak_na_pola_pritegnut
+- vijak_nedostaje
+nc: 7
+roboflow:
+  license: CC BY 4.0
+  project: fasade_quality_control
+  url: https://universe.roboflow.com/myprojects-caukl/fasade_quality_control/dataset/3
+  version: 3
+  workspace: myprojects-caukl
+test: ../test/images
+train: ../train/images
+val: ../valid/images

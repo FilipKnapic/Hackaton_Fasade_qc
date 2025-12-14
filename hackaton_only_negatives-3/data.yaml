@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 5
+names: ['brtva_ostecena', 'lim_nedostaje', 'staklo_puknuto', 'vijak_labav', 'vijak_nedostaje']
+
+roboflow:
+  workspace: myprojects-caukl
+  project: hackaton_only_negatives
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/myprojects-caukl/hackaton_only_negatives/dataset/3
